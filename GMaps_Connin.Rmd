@@ -1,0 +1,84 @@
+---
+title: "Data607_HW11_Connin"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Overview 
+
+The purpose of this assignment is to review a recommender site and perform a scenario design analysis to explicate it's layout, features, AI basis, and performance. And to provide recommendations for improving the service.  
+
+### Google Maps: A Multi-Tiered Recommender System:
+
+Google Maps has arguably been the primary archetype for web-mapping applications and routefinding. It is also evolving into a highly sophisticated recommender system for a broad range of consumer interests, needs, and concerns. 
+
+For example, Maps now includes destination specific recommendations for services that range from banking, pharmacies, and hotels to take-out. And provides the latest news based on the users location. Maps also provides recommendations for things to do along a travel route that are tailored to the user. A traveler can purchase tickets to for-fee attractions within Google Map and, in turn, can rate these attractions - contributing to a pool of consumer reviews.  
+
+Local search results in Maps are defined by user preference and are based relevance (to the user), distance, prominence, and personal interests. In addition, users are now able to “follow” neighborhoods and get updates when there are new restaurants and cafes that she/he might enjoy. These updates/recommendations are informed by reviews a user submits as well as other collaborative filtering methods.
+
+Google is also updating the Maps platform in response to larger policy issues such as climate change and diversity/inclusion. For example, when I opened up Maps this morning, a pop-out feature provided me opportunity to seach (or opt out) for women-led businesses in my location. 
+
+Maps will soon incorporate a new routing model as well that "that optimizes for lower fuel consumption based on factors like road incline and traffic congestion.Google Maps will default to the route with the lowest carbon footprint when it has approximately the same ETA as the fastest route." We will also be able to compare travel times to a destination by car, transit or bike.
+
+### Scenario Design
+
+
+####Consumers
+
+*Target Users* 
+
+The primary target users are men and women >16 years of age (adults) and who use the Maps platform to routefind. They may also own one or more vehicles and have discretionary money to spend on travel related activities and interests. 
+
+*Key goals*
+
+The key goals of target users likely include:1) the ability to routefind & track progress in an efficient/responsive manner; 2) evaluate alternative routes with regard to travel time/cost; 3) find location specific information relevant to a traveler; and 4) accomplish these goals using an intuitive mapping interface.
+
+*Accomplishing goals*
+
+The preceeding goals have been addressed by integrating a variety of location-based services (satellite -to- hypertext) into Maps and by augmenting routefinding capabilities with recommender systems built on machine learning algorithms. The Maps interface is relatively intuitive, using standard icons and symbols to highlight features of interest to the user. And it is branded with Google's name, color scheme, etc. Most importantly, it tracks travel in real time in most areas. 
+
+####Google
+
+*Target Users*
+
+In addition to map users/consumers, I expect that Google's primary target users are other businesses, web-developers, and advertisers who want to leverage the platform for their purposes.
+
+*Key goals*
+
+I imagine Google has any number of goals for an ROI with Maps. These might include: data collection (which can be leveraged for monetary purposes), brand enhancement, state/federal/international contracts, product integration (other Google products and services), revenue from proprietary knowledge, and of course a consumer friendly product that is reliable and fast.
+
+*Accomplishing goals*
+
+These goals are being met by leveraging a wide swath of services, technologies and computational methods. To the best of my knowledge Google's recommender system for Maps is built on collaborative filtering - further individualized and fine tuned by user feedback. The extent to which Maps employs content-based recommender algorithms is not clear to me. Nor are their methods for producing real-time results based on user queries. 
+
+##Recommendations for Improvement
+
+When it comes to technology, I am an advocate for two basic ideas: 
+
+1) Less is More - core functions should not be sacrificed or otherwise overshadowed by secondary features.
+
+2) Agency - when users can optimize a technology to meet their needs/preferences, they are more likely to enjoy and continue using the product. This assumes the technology is user friendly!
+
+My recommendations for forward & reverse designing Google Maps include:
+
+1. Provide users an option for which features they want to include/exlude in Map's "Explore" section. 
+
+2. Further develop the "Timeline" feature - which provides a spatial record of a user's location (travel). This could be integrated with other user information during those times. 
+
+3. Explore ways the interface/recommendations can meet a broader range of ADA needs and requirements. This might also include features to assist spatial cognition.  
+
+4. Simplify the Google Maps API to encourage continued use and developer loyalty.  
+
+
+References:
+
+Kaladevi et al. 2019. POPULARITY BASED RECOMMENDER SYTSEM FOR GOOGLE MAP. International Research Journal of Engineering and Technology (IRJET).https://www.irjet.net/archives/V6/i3/IRJET-V6I3467.pdf
+
+Lardinoise, F. 2018.The new Google Maps with personalized recommendations is now live. https://techcrunch.com/2018/06/26/the-new-google-maps-with-personalized-recommendations-is-now-live/
+
+Glasgow, D. 2021.Redefining what a map can be with new information and AI.  https://blog.google/products/maps/redefining-what-map-can-be-new-information-and-ai/
